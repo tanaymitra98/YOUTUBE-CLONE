@@ -1,0 +1,128 @@
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section{
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+}
+.center-section{
+  display: flex;
+  align-items: center;
+  
+  flex: 1;
+  max-width: 500px;
+  flex-direction: row;
+}
+.search-bar{
+  flex: 1;
+  height: 36px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(201, 201, 201);
+  font-size: 16px;
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+  width: 0;
+}
+.search-bar::placeholder{
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  color: rgb(96,96,96);
+  padding-left: 10px;
+  
+}
+.search-button{
+  height: 40px;
+  width: 60px;
+  border-color: rgb(201, 201, 201);
+  border-width: 0.25px;
+  margin-left: -1px;
+  margin-right: 10px;
+}
+.voice-button{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.voice-search-icon{
+  height: 21px;
+  margin-top: 4px;
+  background-color: rgb(174, 169, 169);
+}
+.search-icon{
+  height: 25px;
+  padding-top: 4px;
+  background-color: rgb(241, 235, 235);
+}
+
+
+
+.hamburger-menu{
+  height: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.youtube-logo{
+  height: 20px;
+}
+
+.right-section{
+  
+  width: 180px;
+  margin-left: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.upload-icons{
+  height: 24px;
+}
+
+.youtube-apps-icons{
+  height: 24px;
+}
+
+.notifications-icons{
+  height: 24px; /* Increase the height to a reasonable size */
+  cursor: pointer;
+}
+.notifications-container{
+  position: relative;
+  
+}
+
+.notifications-count{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  font-family: Roboto;
+  font-size:12px;
+  border-radius: 20px;
+  padding-left: 3px;
+  padding-right: 3px;
+
+}
+
+.profile-picture-icons{
+  height: 32px;
+  border-radius:16px ;
+  margin-right: 20px;
+}
